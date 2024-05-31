@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "name": "pdfme_test",
+  "description": "```bash\r npm i typescript --save-dev\r npx tsc --init\r ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":  "npx tsc -w ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
