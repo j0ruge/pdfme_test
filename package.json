@@ -1,8 +1,8 @@
 {
   "devDependencies": {
+    "@types/node": "20.11.5",
     "gts": "^5.3.0",
-    "typescript": "~5.4.3",
-    "@types/node": "20.11.5"
+    "typescript": "~5.4.3"
   },
   "name": "pdfme_test",
   "description": "```bash\r npm i typescript --save-dev\r npx tsc --init\r ```",
@@ -21,5 +21,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@pdfme/common": "^4.0.1",
+    "@pdfme/generator": "^4.0.1"
+  }
 }
